@@ -8,3 +8,7 @@
 """
 
 # import pytest
+
+import scipy 
+
+print(help(scipy))
