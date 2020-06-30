@@ -1,0 +1,45 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+faker = "*"
+memory-profiler = "*"
+setproctitle = "*"
+v = {editable = true,version = "*"}
+
+[packages]
+click = "*"
+eliot = "*"
+loguru = "*"
+pyyaml = "*"
+pygments = "*"
+termcolor = "*"
+jinja2 = "*"
+mysqlclient = "*"
+peewee = "*"
+requests = "*"
+oss2 = "*"
+coverage = "*"
+grpcio-tools = "*"
+prettytable = "*"
+retrying = "*"
+networkx = "==2.3"
+scipy = "*"
+pillow = "*"
+numpy = "*"
+pyhive = "*"
+thrift = "*"
+sasl = "*"
+thrift-sasl = "==0.2.1"
+boto = "*"
+faiss = "*"
+pure-sasl = "*"
+impyla = "*"
+tqdm = "*"
+sentry-sdk = "==0.7.10"
+
+[requires]
+python_version = "3.6"
