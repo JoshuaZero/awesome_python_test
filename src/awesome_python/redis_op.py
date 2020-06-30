@@ -7,13 +7,13 @@ import redis as rds
 class redis_op:
     
     def __init__(self):
-        self._redis = rds.Redis(host="localhost", port=2020, db=0)
+        self._redis = rds.Redis(host="localhost", port=6379, db=0)
     
     def set_data(self, k, value):
         return self._redis.set(k, value)
 
     def get_data(self, k):
-        return self._redis(k)
+        return self._redis.get(k)
 
 
 if __name__ == "__main__":
