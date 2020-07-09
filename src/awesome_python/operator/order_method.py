@@ -63,6 +63,7 @@ class BulkItemPromo(Promotion):
 class LargeOrderPromo(Promotion):
     """订单中不同商品达到10个或以上时提供7%折扣"""
     def discount(self, order):
+        discount = 0
         distint_item = {item.product for item in order.cart}
         if len(distint_item) >= 10:
             discount = self.total()*0.07
