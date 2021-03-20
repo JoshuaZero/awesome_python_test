@@ -21,7 +21,7 @@ grpcio==1.29.0
 idna==2.9
 immutables==0.14
 impyla==0.16.2
-jinja2==2.11.2
+jinja2==2.11.3
 jmespath==0.10.0
 loguru==0.5.0
 markupsafe==1.1.1
