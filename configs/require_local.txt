@@ -57,7 +57,7 @@ defusedxml==0.6.0
 diff-match-patch==20181111
 distlib==0.3.0
 distributed==2.9.0
-Django==3.0.7
+Django==3.1.9
 djangorestframework==3.11.0
 docutils==0.15.2
 easydict==1.9
