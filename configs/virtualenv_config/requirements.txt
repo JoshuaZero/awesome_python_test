@@ -33,7 +33,7 @@ peewee==3.13.3
 pillow==7.1.2
 ply==3.11
 prettytable==0.7.2
-protobuf==3.12.1
+protobuf==3.18.3
 pure-sasl==0.6.2
 pycryptodome==3.9.7
 pygments==2.6.1
